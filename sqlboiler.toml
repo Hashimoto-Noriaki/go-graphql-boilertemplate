@@ -1,0 +1,13 @@
+pkgname = "db"
+output = "graph/db"
+wipe = true
+add-global-variants = false
+no-tests = true
+
+[postgres]
+  user = "user"
+  pass = "password"
+  host = "localhost"
+  port = 5432
+  dbname = "mygraphql"
+  sslmode = "disable"
