@@ -10,7 +10,7 @@ go mod tidy
 ```
 
 ### docker起動
-
+PostgreSQLを5432ポートでホストに公開。
 ```
 docker compose up -d
 ```
