@@ -43,3 +43,7 @@ go: downloading github.com/lib/pq v1.10.6
 $ sqlboiler --version
 SQLBoiler v4.16.2
 ```
+
+### 参考資料
+
+https://zenn.dev/hsaki/books/golang-graphql/viewer/intro
