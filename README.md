@@ -8,3 +8,11 @@ go run ./server.go
 ```
 go mod tidy
 ```
+
+### docker起動
+
+```
+docker compose up -d
+```
+
+### playground
