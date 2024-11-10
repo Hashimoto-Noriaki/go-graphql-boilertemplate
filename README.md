@@ -22,6 +22,11 @@ docker compose up -d
 ```
  % psql -h localhost -U user -d mygraphql
 ```
+ログイン後、データベース内のテーブル一覧を表示
+```
+\dt
+```
+
 SQLBoilerを実行
 ```
 sqlboiler postgres
