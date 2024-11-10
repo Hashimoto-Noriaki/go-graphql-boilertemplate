@@ -17,6 +17,16 @@ docker compose up -d
 
 ### playground
 
+
+### データベースのテーブルが作成されているか確認
+```
+ % psql -h localhost -U user -d mygraphql
+```
+SQLBoilerを実行
+```
+sqlboiler postgres
+```
+
 ### sqlboiler
 ```
 $ go install github.com/volatiletech/sqlboiler/v4/drivers/sqlboiler-psql@latest
